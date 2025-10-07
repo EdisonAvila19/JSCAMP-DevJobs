@@ -12,7 +12,6 @@ https://flukeout.github.io/
 
 
 ## Clase 1
-https://midu.link/html
-https://midu.link/css
-https://www.aprendejavascript.dev/
-
+  * https://midu.link/html
+  * https://midu.link/css
+  * https://www.aprendejavascript.dev/
