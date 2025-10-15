@@ -1,6 +1,6 @@
-const container = document.querySelector('.jobs-listings')
+import {paginate} from './pagination.js'
 
-const RESULTS_PER_PAGE = 3
+const container = document.querySelector('.jobs-listings')
 
 fetch("./data.json") /* fetch es asíncrono */
   .then((response) => {
@@ -24,4 +24,6 @@ fetch("./data.json") /* fetch es asíncrono */
 
       container.appendChild(article)
     })
+
+    paginate()
   });
