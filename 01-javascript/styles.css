@@ -270,6 +270,9 @@ main > section:nth-child(2) {
   background-color: var(--background);
   padding-top: 2rem;
 
+  max-width: 1280px;
+  margin: 0 auto;
+
   & > header {
     gap: 2px;
     flex-direction: column;
@@ -281,11 +284,6 @@ main > section:nth-child(2) {
     p {
       opacity: .75;
     }
-  }
-
-  & > div {
-    max-width: 1280px;
-    margin: 0 auto;
   }
 }
 
@@ -477,6 +475,16 @@ article {
       background-color: var(--primary-light);
       color: white;
       pointer-events: none;
+    }
+
+    &.is-disabled {
+      pointer-events: none;
+      opacity: .5;
+    }
+
+    &.is-hidden {
+      pointer-events: none;
+      opacity: 0;
     }
   }
 }
