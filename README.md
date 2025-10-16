@@ -22,15 +22,17 @@
 
 
 ## Clase 1
-  - [link](https://edisonavila19.github.io/JSCAMP-DevJobs/00-html-css)
+  - [link a la pagina](https://edisonavila19.github.io/JSCAMP-DevJobs/00-html-css)
   * https://midu.link/html
   * https://midu.link/css
   * https://www.aprendejavascript.dev/
 
 ## Clase 3
-  - [link](https://edisonavila19.github.io/JSCAMP-DevJobs/01-javascript/empleos.html)
+  - [link a la pagina](https://edisonavila19.github.io/JSCAMP-DevJobs/01-javascript/empleos.html)
 
   * Tasks
     - 🟢 Funcionalidad del buscador (Filtrar por titulo)
     - 🟢 Agregar filtro de tecnología (multiples tecnologías) y Nivel de experiencia
     - 🟢 Paginación (numero de paginas correcta de acuerdo a numero de ofertas visibles)
+
+## Clase 4 

@@ -4,6 +4,7 @@ let $activeJobs
 const $paginationContainer = document.querySelector('.pagination')
 
 export function paginate() {
+  currentPage = 1
   $activeJobs = document.querySelectorAll('.job-listing-card:not(.is-hidden)')
   showJobs()
   $paginationContainer.innerHTML = ''
